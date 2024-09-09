@@ -177,6 +177,7 @@ button {
   border: 1px solid white;
   background-color: #3882f6;
   border-radius: 32px;
+  flex-wrap: wrap;
 }
 
 .left-section {
@@ -186,6 +187,7 @@ button {
   padding: 32px;
   margin-right: 32px;
   color: #f9faf8;
+  gap: 15px;
 }
 
 .text-1 {
