@@ -141,3 +141,26 @@ button {
   justify-content: center;
   font-weight: bold;
 }
+
+.quote-section {
+  padding: 10% 30%;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
