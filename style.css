@@ -33,3 +33,45 @@ ul {
 ul li {
   list-style: none;
 }
+
+.hero-content {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 44px;
+}
+
+.hero-left {
+  max-width: 35%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+.hero-right img {
+  width: 500px;
+  height: 300px;
+}
+
+button {
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  align-self: center;
+  box-shadow: -9px 7px 16px -4px rgba(255, 255, 255, 1);
+}
