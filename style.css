@@ -56,9 +56,11 @@ ul li {
 .hero-content {
   background-color: #1f2937;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 44px;
+  gap: 32px;
 }
 
 .hero-left {
@@ -102,7 +104,6 @@ button {
   background-color: #f9faf8;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   gap: 2em;
 }
@@ -117,6 +118,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 32px;
   padding: 32px;
   gap: 92px;
