@@ -82,6 +82,12 @@ ul li {
   color: #f9faf8;
 }
 
+#greeting {
+  margin: 12px;
+  color: #e5e7eb;
+  font-size: 20px;
+}
+
 .hero-right img {
   border: 1px solid white;
   border-radius: 20px;
