@@ -4,9 +4,7 @@ signUpBtn.addEventListener('click', updateBtn);
 
 function updateBtn() {
     if (signUpBtn.textContent === 'Sign Up') {
-        signUpBtn.textContent = 'You have successfully signed up!'
-    }
-    else {
-        signUpBtn.textContent = 'Start machine';
+        signUpBtn.textContent = "You're awesome for signing up!"
+        signUpBtn.disabled= true;
     }
 }
